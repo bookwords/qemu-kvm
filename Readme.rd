@@ -1,10 +1,9 @@
-echo "# qemu-kvm" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/bookwords/qemu-kvm.git
-git push -u origin main
+
+1. quit 'virsh console'
+   'ctrl+]' will do
+
+
+
 
 
 

@@ -1,0 +1,10 @@
+
+
+GRUB_TIMEOUT=5
+GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
+GRUB_DEFAULT=saved
+GRUB_DISABLE_SUBMENU=true
+GRUB_TERMINAL_OUTPUT="console"
+GRUB_CMDLINE_LINUX="iommu=pt intel_iommu=on transparent_hugepage=never crashkernel=auto spectre_v2=retpoline rhgb quiet audit=1 audit_backlog_limit=8192"
+GRUB_DISABLE_RECOVERY="true"
+
